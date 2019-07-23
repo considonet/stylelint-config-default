@@ -1,0 +1,28 @@
+{
+  "name": "@considonet/stylelint-config-default",
+  "version": "0.1.0",
+  "description": "Default main stylelint ruleset for ConsidoNet projects",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/considonet/stylelint-config-default.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "Paweł Gabryelewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/considonet/stylelint-config-default/issues"
+  },
+  "homepage": "https://github.com/considonet/stylelint-config-default#readme",
+  "dependencies": {
+    "@considonet/stylelint-config-bem": "^1.0.0",
+    "@considonet/stylelint-config-order": "^1.0.0",
+    "@considonet/stylelint-config-scss": "^1.0.0",
+    "stylelint-scss": "^3.9.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^10.1.0"
+  }
+}
