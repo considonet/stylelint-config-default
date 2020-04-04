@@ -1,6 +1,6 @@
 {
   "name": "@considonet/stylelint-config-default",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Default main stylelint ruleset for ConsidoNet projects",
   "main": "./lib/index.js",
   "repository": {
@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/considonet/stylelint-config-default#readme",
   "dependencies": {
-    "@considonet/stylelint-config-bem": "^1.0.0",
-    "@considonet/stylelint-config-order": "^1.0.0",
-    "@considonet/stylelint-config-scss": "^1.0.0",
-    "stylelint-scss": "^3.9.2"
+    "@considonet/stylelint-config-bem": "^1.0.1",
+    "@considonet/stylelint-config-order": "^1.0.1",
+    "@considonet/stylelint-config-scss": "^1.0.1",
+    "stylelint-scss": "^3.16.0"
   },
   "peerDependencies": {
-    "stylelint": "^10.1.0"
+    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
   }
 }
